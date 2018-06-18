@@ -7,8 +7,8 @@ ARG scalaVersion=2.12.2
 ARG scalaURL=http://downloads.lightbend.com/scala/${scalaVersion}/scala-${scalaVersion}.tgz
 
 # Spark Download URL.
-ARG sparkVersion=2.2.0
-ARG sparkURL=http://d3kbcqa49mib13.cloudfront.net/spark-${sparkVersion}-bin-hadoop2.7.tgz
+ARG sparkVersion=2.2.1
+ARG sparkURL=http://apache.stu.edu.tw/spark/spark-${sparkVersion}/spark-${sparkVersion}-bin-hadoop2.7.tgz 
 
 # Setting env variables for scala and spark.
 ENV SCALA_HOME  /usr/local/scala
